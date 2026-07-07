@@ -1,5 +1,5 @@
 :root{
-    --colorPrincipal:#1f4146;
+    --colorPrincipal:#087283;
     --colorSecundario:white;
     --colorBoton:#4f46e5;
     --colorFondo:#f2f2f2;
@@ -64,7 +64,7 @@ header{
     margin:25px auto;
     padding:45px;
     border-radius:12px;
-    background:linear-gradient(135deg, #ffa600, #d400ff);
+    background: #ffa600;
     color:var(--colorSecundario);
     position:relative;
     min-height:230px;
