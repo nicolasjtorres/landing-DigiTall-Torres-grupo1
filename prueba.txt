@@ -1,0 +1,275 @@
+No existe una imagen de referencia, por lo que se evaluará la creatividad, la organización del contenido y la correcta aplicación de los conceptos vistos en clase.
+
+Contexto
+Una tienda de tecnología llamada DigiTall desea lanzar una campaña promocional de invierno y necesita una Landing Page moderna para promocionar sus productos más vendidos.
+
+El sitio deberá presentar una interfaz organizada, agradable y fácil de navegar.
+
+Requisitos funcionales1. Header
+Debe contener:
+
+Logo (texto o imagen).
+
+Menú de navegación con al menos 5 opciones.
+
+Botón "Iniciar sesión".
+
+El Header deberá estar organizado utilizando Flexbox.
+
+2. Banner principal
+Debe incluir:
+
+Título principal.
+
+Descripción breve.
+
+Botón "Comprar ahora".
+
+Imagen ilustrativa.
+
+Etiqueta "30% OFF" superpuesta sobre la imagen utilizando:
+
+position: relative
+
+position: absolute
+
+3. Productos destacados
+Crear una sección titulada:
+
+Productos más vendidos
+
+Mostrar 6 tarjetas de productos.
+
+Cada tarjeta deberá contener:
+
+Imagen.
+
+Nombre.
+
+Precio.
+
+Breve descripción.
+
+Botón "Ver producto".
+
+Las tarjetas deberán distribuirse utilizando Flexbox.
+
+4. Beneficios
+Crear una sección con 4 beneficios.
+
+Ejemplos:
+
+Envíos a todo el país.
+
+Garantía oficial.
+
+Cuotas sin interés.
+
+Soporte técnico.
+
+5. Opiniones de clientes
+Crear una sección con 3 testimonios.
+
+Cada tarjeta deberá incluir:
+
+Nombre del cliente.
+
+Comentario.
+
+Calificación (★★★★★).
+
+6. Footer
+Organizar el contenido en 4 columnas:
+
+Contacto.
+
+Dirección.
+
+Sucursales.
+
+Suscripción / Cupón de descuento.
+
+El Footer deberá organizarse mediante Flexbox.
+
+Requisitos técnicos obligatoriosHTML Semántico
+Utilizar correctamente las siguientes etiquetas:
+
+<header>
+
+<nav>
+
+<main>
+
+<section>
+
+<article>
+
+<footer>
+
+Hoja de estilos
+El proyecto deberá contener como mínimo:
+
+index.html
+
+styles.css
+
+La hoja de estilos deberá estar correctamente vinculada.
+
+Variables CSS
+Declarar al menos 5 variables CSS utilizando :root.
+
+Ejemplo:
+
+:root{
+
+   --color-principal;
+
+   --color-secundario;
+
+   --color-fondo;
+
+   --color-texto;
+
+   --radio-borde;
+
+}
+
+Las variables deberán utilizarse en distintos componentes del sitio.
+
+Flexbox
+Aplicar Flexbox como mínimo en:
+
+Header.
+
+Navegación.
+
+Productos.
+
+Beneficios.
+
+Testimonios.
+
+Footer.
+
+Modelo de Caja 
+Aplicar correctamente:
+
+margin
+
+padding
+
+border
+
+border-radius
+
+Position
+Utilizar:
+
+position: relative
+
+position: absolute
+
+para superponer la etiqueta promocional del banner.
+
+Requisitos de implementación1. Organización del CSS
+El archivo styles.css deberá estar dividido mediante comentarios.
+
+Ejemplo:
+
+/* =========================
+
+  HEADER
+
+========================== */
+
+
+/* ==========================
+
+  BANNER
+
+========================== */
+
+
+/* ==========================
+
+  PRODUCTOS
+
+========================== */
+
+2. Convención de nombres
+Las clases CSS deberán utilizar una nomenclatura descriptiva y consistente.
+
+Ejemplo:
+
+header-container
+
+menu-principal
+
+banner-promocion
+
+producto-card
+
+producto-precio
+
+footer-columna
+
+No se recomienda utilizar nombres genéricos como: div1 / caja1 / estilo2 / contenedor3
+
+3. Comentarios en el código
+Agregar al menos dos comentarios propios dentro del CSS explicando alguna decisión de diseño.
+
+Ejemplo (no válidos para incluir en su proyecto):
+
+/* Elegí un color oscuro para mejorar el contraste del menú */
+
+/* Se utiliza Flexbox para facilitar la distribución de las tarjetas */
+
+4. Efectos visuales
+Aplicar al menos:
+
+un efecto :hover sobre botones;
+
+una transición (transition);
+
+un pequeño efecto visual sobre las tarjetas al pasar el cursor.
+
+Control de versiones
+Crear un repositorio en GitHub llamado:
+
+landing-DigiTall-apellido-grupo
+
+Crear un README.md breve justificando decisiones
+
+
+Realizar como mínimo 5 commits, respetando el siguiente orden:
+
+Estructura HTML.
+
+Header y Banner.
+
+Productos y Beneficios.
+
+Footer y estilos generales.
+
+Versión final.
+
+Se evaluará la evolución del proyecto a través del historial de commits. Historial de desarrollo (15%)
+Se evaluará:
+
+commits pequeños y progresivos;
+mensajes descriptivos;
+evolución observable del proyecto;
+coherencia entre los commits y el estado final.
+Publicación
+Publicar el proyecto utilizando GitHub Pages. 
+
+Entrega
+Entregar mediante Google Forms:
+
+Nombre y apellido.
+
+URL del repositorio de GitHub.
+
+URL del sitio publicado mediante GitHub Pages.
+
+Además, compartir el enlace correspondiente en Google Classroom.
